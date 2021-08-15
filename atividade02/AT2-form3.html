@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form3</title>
+</head>
+<body>
+    <form>
+        <fieldset style="width: 620px;">
+            <h1>Formulário</h1>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input id="seunome" name="nome" type="text">
+                <br> <br>
+                <label for="endereço">Endereço:</label>
+                <input id="seuendereço" name="endereço" type="text">
+                <br> <br>
+                <label for="cidade">cidade:</label>
+                <input id="suacidade" name="cidade" type="text">
+                <br> <br>
+                <label for="estados">Estado:</label>
+                <select id="estados">
+                    <option value="São Paulo" selected>São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Pernamboco">Pernamboco</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Manaus">Manaus</option>
+                    <option value="Acre">Acre</option>
+                </select>
+            </fieldset>
+            <br> <br>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="cargos">Natureza do Cargo</label>
+                <input id="tiposCargos" name="NaturezadoCargo" type="radio" value="Gerência" checked>Gerência
+                <input id="tiposCargos2" name="NaturezadoCargo" type="radio" value="Financeiro">Financeiro
+                <input id="tiposCargos3" name="NaturezadoCargo" type="radio" value="Recepção">Recepção
+                <input id="tiposCargos4" name="NaturezadoCargo" type="radio" value="Administrativo">Administrativo
+                <input id="tiposCargos5" name="NaturezadoCargo" type="radio" value="Jurídico">Jurídico
+                <br> <br>
+                <label for="interesse">Área de interesse</label>
+                <input id="interesse1" name="interesse1" type="checkbox" value="Computção">Computção
+                <input id="interesse1" name="interesse1" type="checkbox" value="Biologia">Biologia
+                <input id="interesse1" name="interesse1" type="checkbox" value="Meio Ambiente">Meio Ambiente
+                <input id="interesse1" name="interesse1" type="checkbox" value="Engenharia">Engenharia
+                <input id="interesse1" name="interesse1" type="checkbox" value="História">História
+                <br> <br>
+                <label for="curriculo">Mini-currículo:</label>
+                <textarea id="curriculo" name="mineCurriculo" rows="4" cols="50"></textarea>
+            </fieldset>
+            <br> <br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

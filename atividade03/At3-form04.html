@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .borda{
+            border-style: solid;
+            height: 500px;
+            width: 800px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="borda">
+        <h4>- Manutenção do Órgão Colegiado</h4>
+        <br>
+        <div>
+            <table border="1" align="center">
+                <tr>
+                    <th bgcolor="#87CEFA">Unidade</th>
+                    <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                </tr>
+                <tr>
+                    <th bgcolor="#87CEFA">Tipo Colegiado</th>
+                    <td>CONGREGAÇÃO</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <table class="b2" border="1">
+                <tr>
+                    <td width="1000" bgcolor="#87CEFA"><b>Órgão Colegiado</b></td>
+                </tr>
+            </table>
+        </div>
+        <form>
+            <fieldset>
+                <label for="nome">Nome:</label>
+            <input id="seunome" name="nome" type="text" style="width: 400px;" value="CONGREGAÇÃO DA FACUDADE DE ILHA SOLTEIRA">
+            <br> <br>
+            <div style="display: inline-block;">
+                <label for="sigla">Sigla:</label>
+                <input value="CFIS" id="sigla" name="sigla" type="text" style="width: 50px;">
+                <br>
+                <label for="data1">Data Ativadção:</label>
+                <input value="2000-10-15" id="data1" name="data1" type="date">
+            </div>
+            <div style="display: inline-block; float: right;">
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option value="Ativado" selected>Ativado</option>
+                    <option value="Desativado">Desativado</option>
+                </select>
+                <br>
+                <label for="data2">Data Desativação:</label>
+                <input id="data2" name="data2" type="date" style="width: 50px;">
+            </div>
+            <br>
+            <br>
+            <label for="origem">Órgão de Origem:</label>
+            <input id="origem" name="origem" type="text" style="width: 406px;">
+            <input type="button" value="Buscar">
+            <br> <br>
+            <label for="origemS">Órgão de Superior:</label>
+            <input id="origemS" name="origemS" type="text" style="width: 400px;">
+            <input type="button" value="Buscar">
+            <br> <br>
+            <label for="curriculo">Documentção:</label>
+            <textarea id="curriculo" name="mineCurriculo" rows="4" cols="50">Órgão criado com objetivo de provar da unidade.
+            </textarea>
+            <br> <br>
+            <input type="submit" value="Salvar">
+            <input type="submit" value="Excluir" style="float: right;">
+            </fieldset>
+        </form>
+        
+    </section>
+    
+    
+</body>
+</html>
